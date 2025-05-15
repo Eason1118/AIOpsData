@@ -1,7 +1,1 @@
 
-源数据:
-- 查询条件: {'keywords': '审核失败', 'event_time_start': '2025-05-13 12:22:31', 'event_time_end': '2025-05-14 12:22:31'}
-- 总事件数: 1183
-- 任务分布: {'Logon': 186, 'Credential Validation': 267, 'Kerberos Authentication Service': 595, 'Kerberos Service Ticket Operations': 133, 'User Account Management': 2}
-- 用户统计: [('lxpc448-szc-jsz$', 470), ('LXPC448-SZC-JSZ$', 224), ('', 133), ('hlpc0$', 96), ('HLPC0', 56), ('wenfengzhou', 26), ('wb-mingruima', 14), ('Administrator', 12), ('windyzhou', 10), (' yajiewang', 9)]
-- 前10个IP前缀: [('::ffff:192.168.23.98', 470), ('192.168.23.98', 112), ('::ffff:192.168.24.183', 40), ('::ffff:192.168.22.91', 27), ('::ffff:192.168.25.112', 24), ('10.0.168.212', 20), ('::ffff:192.168.23.14', 20), ('192.168.24.183', 16), ('192.168.15.224', 13), ('10.0.160.40', 8)]
