@@ -151,11 +151,11 @@ class FSMsgHandler(FSAPI):
                         "tag": "button",
                         "text": {
                             "tag": "plain_text",
-                            "content": "打开安全运营平台"
+                            "content": "打开平台"
                         },
                         "type": "primary",
                         "multi_url": {
-                            "url": "http://soc.123u.com/log/alarm",
+                            "url": "http://xxxx.harilou.com",
                             "pc_url": "",
                             "android_url": "",
                             "ios_url": ""
