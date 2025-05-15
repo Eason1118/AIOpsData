@@ -1,0 +1,29 @@
+# Domain模块配置
+
+# API配置
+api:
+  url: "http://<hostname>/api/v1/log/domain/list"
+  method: "POST"
+  headers:
+    Content-Type: "application/json"
+  cookie: ""
+  payload:
+    page_index: 1
+    page_limit: 10000
+    search: 
+      keywords: "审核失败"
+
+# 处理器配置
+processor:
+  output_file: "processor_data.txt"
+  # 需要排除的字段
+  exclude_fields:
+    - "event_id"
+  
+  # 用于去重的字段
+  duplicate_fields:
+    - "username"
+    - "keywords"
+    - "event_time"
+
+  
